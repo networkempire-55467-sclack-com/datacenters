@@ -40,6 +40,8 @@ navigation:
   submenu:
     - text: Inventory Data Submission
       url:  /inventory-data-submission/
+    - text: OGP White Paper Quantifying Significant Expansion
+      url:  /significant-expansion/
     - text: DCOI Strategic Plans
       submenu:
         - text: Agency Strategic Plans & Savings Targets
