@@ -1,9 +1,6 @@
 source "https://rubygems.org"
+gemspec :name => 'uswds-jekyll'
 
-gem 'jekyll'
-gem "redcarpet"
-gem 'rouge'
-
-gem 'bourbon'
-gem 'sass'
-gem 'neat'
+group :jekyll_plugins do
+  gem 'jekyll-last-modified-at'
+end

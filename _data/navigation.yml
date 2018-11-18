@@ -1,0 +1,61 @@
+# This is the configuration for the site navigation.
+
+# This file defines the structure of various named navigational
+# listings, any of which can be used (with some caveats) as the
+# links in your header, footer, and per-page side navigation.
+#
+# For instance, if you have a "primary" navigation list here, you
+# can use that as your header's primary navigation by setting
+# `primary.links` to "primary":
+
+primary:
+- text: Policy
+  href: /policy/
+- text: Reporting
+  href: /reporting/
+- text: Contact
+  href: /contact/
+
+policy:
+- text: New Draft Policy
+  href: /policy
+- text: Previous Policy (M-16-19)
+  href: /policy/m-16-19
+- text: Definition of Significant Expansion
+  href: /policy/significant-expansion/
+
+reporting:
+- text: Reporting
+  href: /reporting/
+  subnav:
+  - text: Data Center Inventory
+    href: /reporting/#data-center-inventory
+  - text: Strategic Plan
+    href: /reporting#strategic-plan
+  - text: FITARA Milestones
+    href: /reporting/#fitara-milestones
+- text: Strategic Plan Generator
+  href: /reporting/strategic-plan-generator
+- text: IT Dashboard
+  href: https://itdashboard.gov/
+  external: true
+  iconafter: external-link-alt
+  subnav:
+    - text: Cost Savings
+      href: https://itdashboard.gov/drupal/cost-savings
+      external: true
+      iconafter: external-link-alt
+    - text: Data Center Closures
+      href: https://itdashboard.gov/drupal/dcoi-closures
+      external: true
+      iconafter: external-link-alt
+    - text: Data Center Optimization
+      href: https://itdashboard.gov/drupal/dcoi-optimization
+      external: true
+      iconafter: external-link-alt
+
+contact:
+- text: Contact Information
+  href: /contact/#contact-information
+- text: Community of Practice
+  href: /contact/#community-of-practice

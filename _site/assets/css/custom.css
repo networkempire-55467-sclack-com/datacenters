@@ -1,0 +1,228 @@
+/* Home page */
+
+.progress-box {
+  padding: 3rem 0;
+}
+
+.progress-box h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.progress-box a,
+.progress-box a:active {
+  color: #02bfe7;
+}
+
+.progress-note {
+  font-size: 1.5rem;
+}
+
+.progress {
+  text-align: center;
+}
+
+#main-content .usa-section:first-child {
+  padding-top: 4rem;
+}
+
+.progress-value {
+    font-size: 3rem;
+    display: block;
+    clear: both;
+}
+
+@media screen and (min-width: 951px) {
+  .progress {
+    padding-top: 4rem;
+    font-size: 2rem;
+  }
+
+  .progress-value {
+    font-size: 8rem;
+    line-height: 1.1;
+  }
+
+  #closures p {
+    display: inline-block;
+    width: 49%;
+  }
+}
+
+.source-info {
+  margin-top: 3rem;
+  text-align: right;
+  font-style: italic;
+}
+
+.usa-logo-text {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.usa-logo-text a {
+  display: grid;
+}
+
+.logo-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  grid-column-start: 1;
+  align-self: center;
+  border-radius: 5rem;
+  background-color: #d6d7d9;
+  /* border: 1px solid #999; */
+  margin-right: 1rem;
+  height: 4.5rem;
+}
+
+.logo {
+  vertical-align: middle;
+  height: 3rem;
+  width: 4.5rem;
+  margin-top: 0.75rem;
+}
+
+.cloud-smart-promo {
+  display: grid;
+  grid-column-gap: 0;
+  background-color: #d6d7d9;
+  border-radius: 5rem;
+  padding: 5px 7px;
+  grid-template-columns: 55px 1fr;
+}
+
+.tiny-cloud-smart {
+  grid-column-start: 1;
+  align-self: center;
+
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 0.25rem;
+}
+
+.cloud-smart-info {
+  grid-column-start: 2;
+  align-self: center;
+}
+
+@media screen and (min-width: 951px) {
+  .logo {
+      height: 10rem;
+      width: 10rem;
+      margin-top: 1.5rem;
+  }
+
+  .logo-wrapper {
+    height: 12rem;
+    background: none;
+  }
+}
+
+.usa-logo-title {
+  grid-column-start: 2;
+  align-self: center;
+}
+
+/* Pretty wrapping of the title. */
+.together {
+  display: inline-block;
+}
+
+/* Overrides */
+.usa-navbar {
+  border-bottom: none;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.usa-content p {
+  max-width: initial;
+}
+
+/* Header */
+.draft-banner {
+  background-color: #112e51;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+.draft-banner .usa-accordion {
+  color: #ffffff;
+}
+
+.draft-banner .usa-banner-header {
+  font-size: 1.5rem;
+}
+
+.draft-banner .usa-banner-button {
+  font-size: 1.5rem;
+  color: #02bfe7;
+  display: inline;
+  position: relative;
+  height:auto;
+  padding: 0px;
+  vertical-align: top;
+  margin-top: 2px;
+}
+
+.draft-banner a {
+  color: #02bfe7;
+}
+
+.draft-instructions {
+  font-size: 0.85em;
+  padding: 0rem 1rem;
+  border: 1px solid #666;
+  background-color: #eee;
+}
+
+.draft-instructions a {
+  color: #02bfe7;
+}
+
+.draft-instructions + h1 {
+
+}
+
+/* Navigation */
+.link-external .fa-external-link-alt {
+  font-size: 85%;
+  margin-left: 0.25rem;
+}
+
+/* Footer */
+
+.usa-footer-contact-links {
+  padding: 3rem 0 1rem;
+}
+
+.usa-footer-contact-heading {
+  font-size: 1.5rem;
+}
+
+/* Content */
+
+body {
+  word-wrap: break-word; /* force long words to break */
+  overflow-wrap: break-word; /* newer syntax standard that replaces word-wrap */
+}
+
+.usa-layout-docs {
+  clear: both;
+}
+
+.nested-list ol {
+  list-style-type: lower-roman;
+}
+
+code,
+pre,
+samp {
+  white-space: pre-wrap; /* force long lines to break */
+}

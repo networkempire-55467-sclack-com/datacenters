@@ -1,16 +1,14 @@
 ---
+title: Strategic Plan Generator
+permalink: /reporting/strategic-plan-generator
 layout: page
-title: JSON Conversion Tool
-permalink: /json-conversion-tool/
-description: "JSON Conversion Tool"
+sidenav: reporting
 ---
 
-<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/css/json-editor-styles.css"/>
-<!--<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css"/>-->
-<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+<link type="text/css" rel="stylesheet" href="/assets/css/json-editor-styles.css"/>
+<script src="{{ site.baseurl }}/assets/js/polyfill.min.js"></script>
 
-
-<h2 id="json-conversion-tool">JSON Conversion Tool</h2>
+<h2 id="strategic-plan-generator">Strategic Plan Generator</h2>
 
 <h3>Introduction</h3>
 <p>To assist agencies with preparation of their required DCOI Strategic Plans, a conversion tool for transferring text into a compatible, machine-readable JSON file is provided below. Agencies' final DCOI Strategic Plans then must be published at ‘agency’.gov/digitalstrategy/datacenteroptimizationstrategicplan.json according to the following deadlines:
@@ -26,34 +24,10 @@ description: "JSON Conversion Tool"
 
 <p>Once the ‘Load my own data’ button is clicked,  a dialogue box will appear prompting you to enter your data in a JSON format. Once entered, click the ‘Load data’ button at the bottom of the screen.</p>
 <p>Please Note: Some fields will only accept numerical data. In the event that the data does not match the parameters for a specific field, an error statement will appear describing the type of data to be entered to correct the error.</p>
-<p>After filling in the data, either manually or by an upload, click the submit button at the very bottom. The tool will produce the entered data in a JSON format in a box at the very end. Copy this output into a text file and save it in a JSON format. **Please note that clicking submit does not mean that the output is actually submitted to OMB.** The output must be posted on agencies' ‘agency’.gov/digitalstrategy/ webpages. OMB will access these files using the links listed in the Agency Strategic Plan Locations page of this site.
-</p>
+<p>After filling in the data, either manually or by an upload, click the submit button at the very bottom. The tool will produce the entered data in a JSON format in a box at the very end. Copy this output into a text file and save it in a JSON format.</p>
+<p><strong>Please note that clicking "Generate" does not mean that the output is automatically submitted to OMB.</strong> The output must be posted on agencies' <code>[agency].gov/digitalstrategy/</code> website. OMB will access these files using the links listed in the Agency Strategic Plan Locations page of this site.</p>
 <p>NOTE that the DCOI also requires that agencies post data center-related milestones to their FITARAmilestones.json files describing steps the agency will take to achieve the goals of the DCOI. Guidance surrounding the DCOI milestones is located at <a href="https://management.cio.gov/schema" target="_blank">management.cio.gov/schema</a>. This tool does not address the DCOI milestones requirement of the DCOI.</p>
 
-<h3>Table of Contents</h3>
-        <ol class="table-of-contents" type="1">
-            <li>Optimization Metrics
-                <ol type="1">
-                    <li>Facility Utilization</li>
-                    <li>Energy Metering</li>
-                    <li>Power Usage Effectiveness (PUE)</li>
-                    <li>Virtualization</li>
-                    <li>Tiered Server Utilization and Automated Monitoring</li>
-                    <li>Non-tiered Server Utilization and Automated Monitoring</li>
-                </ol>
-            </li>
-            <li>Closure Metrics
-                <ol type="1">
-                    <li>Tiered Closures</li>
-                    <li>Non-tiered Closures</li>
-                </ol>
-            </li>
-            <li>Cost Savings Metrics</li>
-        </ol>
-
 <div id="app" class="row app"></div>
-<p class="text-center" class="row">
-    <a href="https://github.com/REI-Systems/OMB-FITARA-DCOI-json-editor">GitHub</a>
-</p>
-<div id="version" class="pull-right text-info small">v</div>
+
 <script src="{{ site.baseurl }}/assets/js/bundle.js"></script>
