@@ -145,6 +145,16 @@ h2 {
   max-width: initial;
 }
 
+legend {
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width: 951px) {
+  legend {
+    font-size: 2.5rem;
+  }
+}
+
 /* Header */
 .draft-banner {
   background-color: #112e51;

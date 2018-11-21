@@ -20797,7 +20797,7 @@
                                     _react2.default.createElement(
                                         "button",
                                         { type: "submit", className: "btn btn-info" },
-                                        "Submit"
+                                        "Generate"
                                     )
                                 )
                         );
