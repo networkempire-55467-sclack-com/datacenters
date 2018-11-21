@@ -1,8 +1,9 @@
 ---
 title: DCOI Policy
-permalink: /policy
+permalink: /policy/
 layout: page
 sidenav: policy
+
 ---
 
 {% if site.draft %}

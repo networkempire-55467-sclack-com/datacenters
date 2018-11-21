@@ -18,9 +18,9 @@ primary:
 
 policy:
 - text: New Draft Policy
-  href: /policy
+  href: /policy/
 - text: Previous Policy (M-16-19)
-  href: /policy/m-16-19
+  href: /policy/m-16-19/
 - text: Definition of Significant Expansion
   href: /policy/significant-expansion/
 

@@ -2,6 +2,7 @@
 layout: page
 title: OGP's Significant Expansion Definition
 permalink: /policy/significant-expansion/
+sidenav: policy
 ---
 
 ## Definition of Significant Expansion

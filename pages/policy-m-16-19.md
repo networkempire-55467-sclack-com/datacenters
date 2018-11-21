@@ -1,6 +1,6 @@
 ---
 title: M-16-19
-permalink: /policy/m-16-19
+permalink: /policy/m-16-19/
 layout: page
 sidenav: policy
 ---
