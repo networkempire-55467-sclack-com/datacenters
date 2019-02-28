@@ -39,8 +39,8 @@ The strategic plan update for a given year must be reported according to the fol
 | 2016 | September 30, 2016 |
 | 2017 | April 14, 2017 |
 | 2018 | April 13, 2018 |
-| 2019 | February 15, 2019 |
-| 2020 | February 14, 2020 |
+| 2019 | April 12, 2019 |
+| 2020 | April 17, 2020 |
 
 Agencies are required to publish their Strategic Plans at
 <code>[agency].gov/digitalstrategy</code> under a section entitled, "Data Center
