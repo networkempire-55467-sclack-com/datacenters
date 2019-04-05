@@ -35,7 +35,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Strategic Plan Generator | Data Center Optimization Initiative</title>
+<title>DCOI Inventory File Validator | Data Center Optimization Initiative</title>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
@@ -89,7 +89,7 @@
 
     
   </head>
-  <body class="  ">
+  <body class=" inventory-validator ">
 
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
@@ -393,46 +393,49 @@
 </aside>
 
 <div class="usa-layout-docs-main_content">
-  <link type="text/css" rel="stylesheet" href="/assets/css/json-editor-styles.css"/>
+  <link type="text/css" rel="stylesheet" href="/assets/css/inventory-validator.css"/>
+<script src="/assets/js/vendor/jquery-3.3.1.min.js"></script>
+<script src="/assets/js/vendor/papaparse.min.js"></script>
+<script src="/assets/js/inventoryvalidate.js"></script>
 
-<h2 id="strategic-plan-generator">Strategic Plan Generator</h2>
+<h2 id="inventory-validator">Inventory File Validator</h2>
 
 <h3>Introduction</h3>
-<p>To assist agencies with preparation of their required DCOI Strategic Plans, a conversion tool for transferring text into a compatible, machine-readable JSON file is provided below. Agencies' final DCOI Strategic Plans then must be published at <code><em>agency</em>.gov/digitalstrategy/datacenteroptimizationstrategicplan.json</code> according to the following deadlines:
+<p>To assist agencies with preparation of their required DCOI Inventory files, a validation tool to check their inventory csv files is provided below. Agencies' final DCOI inventories must be submitted to OMB via the method listen in the quarterly IDC guidance.
 </p>
-<table>
-  <tr>
-    <th>Fiscal Year</th><th>due on or before</th>
-  </tr>
-  <tr>
-    <td>2016</td><td>September 30, 2016</td>
-  </tr>
-  <tr>
-    <td>2017</td><td>April 14, 2017</td>
-  </tr>
-  <tr>
-    <td>2018</td><td>April 13, 2018</td>
-  </tr>
-  <tr>
-    <td>2019</td><td>February 15, 2019</td>
-  </tr>
-  <tr>
-    <td>2020</td><td>February 14, 2020</td>
-  </tr>
-</table>
 
-<h3>Guidance</h3>
-<p>Please enter the relevant data into each fields below. Data can be entered manually or automatically uploaded by clicking the ‘Load my own data’ button on the screen.</p>
+<p>Please refer to the IDC guidance for more information about the fields that must be submitted to OMB.</p>
 
-<p>Once the ‘Load my own data’ button is clicked,  a dialogue box will appear prompting you to enter your data in a JSON format. Once entered, click the ‘Load data’ button at the bottom of the screen.</p>
-<p>Please Note: Some fields will only accept numerical data. In the event that the data does not match the parameters for a specific field, an error statement will appear describing the type of data to be entered to correct the error.</p>
-<p>After filling in the data, either manually or by an upload, click the submit button at the very bottom. The tool will produce the entered data in a JSON format in a box at the very end. Copy this output into a text file and save it in a JSON format.</p>
-<p><strong>Please note that clicking "Generate" does not mean that the output is automatically submitted to OMB.</strong> The output must be posted on agencies' <code>[agency].gov/digitalstrategy/</code> website. OMB will access these files using the links listed in the Agency Strategic Plan Locations page of this site.</p>
-<p>NOTE that the DCOI also requires that agencies post data center-related milestones to their FITARAmilestones.json files describing steps the agency will take to achieve the goals of the DCOI. Guidance surrounding the DCOI milestones is located at <a href="https://management.cio.gov/schema" target="_blank">management.cio.gov/schema</a>. This tool does not address the DCOI milestones requirement of the DCOI.</p>
+<h3>Validator</h3>
 
-<div id="app" class="strat-plan row app"></div>
+<p>
+  This tool helps to find common issues with inventory data CSV files. It may not catch every problem, and OMB may ask you to make further changes or modifications upon submission.
+</p>
 
-<script src="/assets/js/bundle.js"></script>
+<p>
+  <strong>This website does not collect any inventory data. Please refer to the IDC Guidance for instructions on how to submit this data to OMB.</strong>
+</p>
+
+<section class="content">
+  <form id="validate-form" class="block validate-form">
+    <div class="form-group">
+      <label for="input-file" class="title-row">Choose a File</label>
+      <input type="file" id="input-file" class="form-control-file" />
+    </div>
+    <div class="form-group">
+      <input type="submit" name="submit" id="submit" value="Validate" class="btn btn-sm btn-primary"/>
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" id="toggle-warnings" class="form-check-input" value="1" checked />
+      <label for="toggle-warnings" class="form-check-label">Show Warnings</label>
+    </div>
+  </form>
+
+  <h3>Results</h3>
+  <div id="results" class="block results-block">
+  </div>
+</section>
+
 
 </div>
 

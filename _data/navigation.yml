@@ -34,8 +34,13 @@ reporting:
     href: /reporting#strategic-plan
   - text: FITARA Milestones
     href: /reporting/#fitara-milestones
-- text: Strategic Plan Generator
-  href: /reporting/strategic-plan-generator
+- text: Reporting Tools
+  href: #
+  subnav:
+    - text: Inventory File Validator
+      href: /reporting/inventory-validator
+    - text: Strategic Plan Generator
+      href: /reporting/strategic-plan-generator
 - text: IT Dashboard
   href: https://itdashboard.gov/
   external: true
