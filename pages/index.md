@@ -19,10 +19,9 @@ subfeature: |
 
 ---
 
-{:.cloud-smart-promo}
-![Image of a cloud shaped like a brain](/assets/img/cloud-smart-logo.svg){:.tiny-cloud-smart} **As a part of the [Cloud Smart strategy](https://cloud.cio.gov/), OMB has posted for public feedback [a draft memorandum](/policy/) to replace M-16-19. Comments will be accepted through December 26, 2018.**{:.cloud-smart-info}
-
-The Data Center Optimization Initiative (DCOI) established in OMB Memorandum [M-16-19](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m_16_19_1.pdf) supercedes the Federal Data Center Consolidation Initiative (FDCCI) and fulfills the data center requirements of the Federal Information Technology Acquisition Reform Act (FITARA).
-
+The Data Center Optimization Initiative (DCOI) established in OMB Memorandum [M-19-19](/policy/) supercedes the Federal Data Center Consolidation Initiative (FDCCI) and fulfills the data center requirements of the Federal Information Technology Acquisition Reform Act (FITARA). M-19-19 rescinds and replaces *M-16-19 Data Center Optimization Initiative (DCOI)*.
 
 DCOI requires agencies to optimize and consolidate data centers to deliver better services to the public while increasing return-on-investment to taxpayers.
+
+{:.cloud-smart-promo}
+![Image of a cloud shaped like a brain](/assets/img/cloud-smart-logo.svg){:.tiny-cloud-smart} **DCOI is a part of the [Cloud Smart strategy](https://cloud.cio.gov/).**{:.cloud-smart-info}

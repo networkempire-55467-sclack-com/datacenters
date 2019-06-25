@@ -7,16 +7,21 @@ sidenav: policy
 
 [Download this memorandum as a PDF](/assets/files/m_16_19.pdf)
 
+***Note: This Memorandum has been rescinded by [M-19-](/policy/)***
+
 **M-16-19**
 
 **August 1, 2016**
 
 **MEMORANDUM FOR HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES**
 
-**FROM: Tony Scott
-Federal Chief Information Officer**
+**FROM: Tony Scott**
 
-**SUBJECT: Data Center Optimization Initiative (DCOI) Background**
+**Federal Chief Information Officer**
+
+**SUBJECT: Data Center Optimization Initiative (DCOI)**
+
+**Background**
 
 In 2010, the Office of Management and Budget (OMB) launched the Federal
 Data Center Consolidation Initiative (FDCCI) to promote the use of green
