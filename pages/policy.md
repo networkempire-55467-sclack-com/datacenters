@@ -137,7 +137,7 @@ Potential options for migration include:
 -   Migrating to more optimized data centers within the agency's data
     center inventory.
 
-### [Shared Services Managing Partner]{.underline}
+### Shared Services Managing Partner
 
 OMB still considers shared services to be a cornerstone of data center
 consolidation. As such, the General Services Administration (GSA) Office
@@ -593,17 +593,14 @@ of limited resources or conflicting priorities, agencies should consider
 their mission goals first, and this prioritization second, in the
 following descending order of importance:
 
-1)  Consolidation and Closure
+1.  Consolidation and Closure
 
-2)  Optimization
+2.  Optimization
 
-    i.  Virtualization
-
-    ii. Availability
-
-    iii. Energy Metering
-
-    iv. Server Utilization
+  i.  Virtualization
+  ii. Availability
+  iii. Energy Metering
+  iv. Server Utilization
 
 ## Reporting
 
@@ -724,11 +721,11 @@ on September 30, 2020.
 [^9]: President's Management Agenda*, Shifting From Low-Value to
     High-Value Work*, available at:
 
-    [[https://www.performance.gov/CAP/CAP\_goal\_6.html]{.underline}](https://www.performance.gov/CAP/CAP_goal_6.html)
+    <https://www.performance.gov/CAP/CAP_goal_6.html>
 
 [^10]: *Reducing Burden for Federal Agencies by Rescinding and Modifying
     OMB Memoranda*:
-    [[https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/M-17-26.pdf]{.underline}](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/M-17-26.pdf)
+    <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/M-17-26.pdf>
 
 [^11]: These key criteria can be found in the most current Integrated
     Data Collection instructions provided to agencies each quarter.
@@ -751,7 +748,7 @@ on September 30, 2020.
 
 [^16]: *See* 42 U.S.C. § 8256, 10 U.S.C. § 2913, and 10 U.S.C. § 2866.
 
-[^17]: [[https://www.whitehouse.gov/presidential-actions/executive-order-regarding-efficient-federal-operations/]{.underline}](https://www.whitehouse.gov/presidential-actions/executive-order-regarding-efficient-federal-operations/)
+[^17]: <https://www.whitehouse.gov/presidential-actions/executive-order-regarding-efficient-federal-operations/>
 
 [^18]: 44 U.S.C. § 3601 note.b.2.G.ii.
 
@@ -759,4 +756,4 @@ on September 30, 2020.
 
 [^20]: OMB Memorandum M-12-10, *Implementing PortfolioStat* (March 30,
     2012), available at:
-    [[https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2012/m-12-10\_1.pdf]{.underline}](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2012/m-12-10_1.pdf)
+    <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2012/m-12-10_1.pdf>
