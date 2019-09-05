@@ -15,9 +15,7 @@ Agences' reported public data can be viewed on the [IT Dashboard](https://itdash
 
 # Data Center Inventory
 
-Each quarter, the Federal CFO-Act agencies submit data containing their full inventory of data centers to OMB. This data collection is the source of information for OMB's oversight over Federal data centers and agencies' implementation of the DCOI.
-
-Data Collection Dates:
+Each quarter, the Federal CFO-Act agencies submit data containing their full inventory of data centers to OMB. This data collection is the source of information for OMB's oversight over Federal data centers and agencies' implementation of the DCOI. The data center inventory is collected quarterly as part of the Integrated Data Collection (IDC). These dates _generally_ align to the following calendar, but please refer to the IDC Instructions for specific dates.
 
 * Submissions for the first collection quarter of the calendar year (Q1) are due on or before the last day of February;
 * Submissions for Q2 are due on or before May 31st;
@@ -33,14 +31,7 @@ In accordance with FITARA, beginning in fiscal year 2016, each agency
 head shall annually publish a Strategic Plan to describe the agency's
 consolidation and optimization strategy.
 
-The strategic plan update for a given year must be reported according to the following schedule:
-
-| **Fiscal Year** | **due on or before** |
-| 2016 | September 30, 2016 |
-| 2017 | April 14, 2017 |
-| 2018 | April 13, 2018 |
-| 2019 | April 12, 2019 |
-| 2020 | April 17, 2020 |
+The strategic plan update for a given year must be reported as part of the Q2 IDC Collection for that year. Please refer to the IDC Instructions for specific dates.
 
 Agencies are required to publish their Strategic Plans at
 <code>[agency].gov/digitalstrategy</code> under a section entitled, "Data Center
